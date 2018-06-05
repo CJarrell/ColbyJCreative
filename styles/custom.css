@@ -1,0 +1,545 @@
+/*CSS for ColbyJCreative.com*/
+/*Author: Colby Jarrell | Creative Consultant*/
+/*Copyright: Colby Jarrell 2016 | All rights reserved*/
+
+
+/*Typography*/
+
+blockquote,
+body,
+h1 {
+    line-height: 1.5
+}
+@font-face{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+h1,h2{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+body,
+h3,
+h4,
+h5,
+h6,{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size-adjust: .25
+}
+
+body {
+    font-size: 1em
+}
+
+@media (min-width:43.75em) {
+    body {
+        font-size: 1.2em;
+        line-height: 1.3;
+    }
+}
+
+h1 {
+    font-size: 1.75em
+}
+
+@media (min-width:43.75em) {
+    h1 {
+        font-size: 2em;
+        line-height: 1.125
+    }
+}
+
+@media (min-width:56.25em) {
+    h1 {
+        font-size: 2.25em;
+        line-height: 1.05
+    }
+}
+
+h2 {
+    font-size: 2em;
+    line-height: .75
+}
+
+@media (min-width:43.75em) {
+    h2 {
+        font-size: 2.5em;
+        line-height: 1
+    }
+}
+
+@media (min-width:56.25em) {
+    h2 {
+        font-size: 2.75em;
+        line-height: 1
+    }
+}
+
+h3 {
+    font-size: 1.75em;
+    line-height: 1.13636364
+}
+
+@media (min-width:43.75em) {
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.1
+    }
+}
+
+@media (min-width:56.25em) {
+    h3 {
+        font-size: 2.75em;
+        line-height: 1.5
+    }
+}
+
+h4 {
+    font-size: 1.5em;
+    line-height: 1.6
+}
+
+
+blockquote {
+    font-size: 1.5em
+}
+
+@media (min-width:43.75em) {
+    h4 {
+        line-height: 1.22222222
+    }
+    blockquote {
+        font-size: 1.5em;
+        line-height: 1.45833333
+    }
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.4
+}
+
+@media (min-width:43.75em) {
+    p {
+        font-size: 1.5em;
+        line-height: 1.8
+    }
+}
+
+@media (min-width:56.25em) {
+    p {
+        font-size: 1.6em;
+        line-height: 1.9
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0
+}
+
+ol,
+p,
+ul {
+    margin: 0
+}
+/*Fonts*/
+h1.open-sans,
+h2.open-sans,
+h3.open-sans,
+h4.open-sans,
+h5.open-sans,
+h6.open-sans,
+p.open-sans,
+a.open-sans,
+span.open-sans{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+h1.pathway-gothic,
+h2.pathway-gothic,
+h3.pathway-gothic,
+h4.pathway-gothic,
+h5.pathway-gothic,
+h6.pathway-gothic,
+p.pathway-gothic,
+a.pathway-gothic,
+span.pathway-gothic,
+ul.pathway-gothic{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+/*Font Colors*/
+h1.orange,
+h2.orange,
+h3.orange,
+h4.orange,
+h5.orange,
+h6.orange,
+p.orange,
+a.orange,
+span.orange{
+  color: #e0710e;
+}
+h1.blue,
+h2.blue,
+h3.blue,
+h4.blue,
+h5.blue,
+h6.blue,
+p.blue,
+a.blue,
+span.blue{
+  color: #093048;
+}
+h1.grey,
+h2.grey,
+h3.grey,
+h4.grey,
+h5.grey,
+h6.grey,
+p.grey,
+a.grey,
+span.grey{
+  color: #757575;
+}
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+h6.white,
+p.white,
+a.white,
+span.white{
+  color: #FFFFFF;
+}
+h1.black,
+h2.black,
+h3.black,
+h4.black,
+h5.black,
+h6.black,
+p.black,
+a.black,
+span.black{
+  color: #000000;
+}
+/*Custom Padding*/
+.top-pad-sm{
+  padding-top: 12px;
+}
+.top-pad-md{
+  padding-top: 25px;
+}
+.top-pad-lg{
+  padding-top: 50px;
+}
+/*Liners*/
+.orange-liner{
+  border-bottom: 2px solid #e0710e; 
+}
+.blue-liner{
+  border-bottom: 2px solid #093048;
+}
+/*Home Section*/
+.logo-container{
+    background: rgba(229,229,229,.85);
+    max-width:300px;
+    max-height: 300px;
+    border-radius:25px;
+    top: 50%;
+  }
+  .logo-box{
+    padding-top: 50px;
+  }
+  .logo{
+    max-width: 350px;
+  }
+  #prices-logo{
+    margin-top: 75px;
+  }
+@media screen and (max-width: 1028px) {
+  .logo-container{
+    background: rgba(229,229,229,.85);
+    max-width:300px;
+    max-height: 300px;
+    border-radius:25px;
+    top: 50%;
+  }
+  .logo-box{
+    padding-top: 60px;
+  }
+  .logo{
+    max-width: 300px;
+  }
+  #prices-logo{
+    margin-top: 70px;
+  }
+}
+video{
+width:100%
+}
+@media screen and (max-width: 768px) {
+  .logo-container{
+    background: rgba(229,229,229,.85);
+    max-width:200px;
+    max-height: 185px;
+    border-radius:25px;
+    top: 35%;
+  }
+  .logo{
+    max-width: 250px;
+  }
+  .hide-on-mobile{
+    visibility: hidden;
+  }
+  #prices-logo{
+    margin-top: 65px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo-container{
+    background: rgba(229,229,229,.85);
+    max-width:200px;
+    max-height: 200px;
+    border-radius:25px;
+    top: 20%;
+  }
+  .logo{
+    max-width: 200px;
+  }
+  .hide-on-mobile{
+    visibility: hidden;
+  }
+  #prices-logo{
+    margin-top: 60px;
+  }
+}
+.jtron-text{
+  font-size: 2em !important;
+  text-shadow: #e0710e 1.75px 1.75px .75px;
+}
+/*Matterport Space*/
+.matter {
+  padding-top: 50px;
+}
+.matter-inner {
+  border-top: 1.5px solid #cc3232;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.matter-inner iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+/*Gallery Section*/
+/* Services Buttons */
+section#gallery{
+  padding-top: 50px;
+}
+.svg-filters{
+  margin-bottom: 20px;
+}
+.services-item{
+  padding: 22px;
+  line-height: 45px;
+}
+.services-item .services-svg{
+  fill: #9d9d9d;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  display: block;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}          
+.services-item:hover .services-svg{
+  fill: #093048;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}        
+.services-item h2{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 25px;
+  line-height:25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+} 
+.services-item h4{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 20px;
+  line-height:25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/*Reset Button*/
+.reset-button{
+  font-size: 1.5em;
+  margin-top: 15px;
+  color: #e0710e;
+  padding: 7.5px;
+  width: 90%;
+  background: #093048;
+  border-radius: 5px;
+}
+.reset-button:hover{
+  color: #FFFFFF;
+  padding: 5px;
+  background: #757575;
+  text-decoration: none;
+  border-radius: 5px;
+              -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}
+/*Masonry Grid*/
+.portfolio-bg{
+  background: #093048;
+}
+.portfolio-bg-one{
+  background: white;
+}
+div.fade-text{
+  position: absolute;
+  padding-left: .5em;
+  padding-top: .25em
+}
+img.fade{
+  position: relative;
+  border: 2px solid #093048;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+img.fade:hover{
+  border: 0px solid #093048;
+  opacity: .25;
+  filter: alpha(opacity=25);
+              -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}
+
+.grid{
+  width: 100%;
+}
+.grid-sizer, .grid-item{
+  width: 20%;
+}
+.grid-item-one-third{
+  width: 33.33%;
+}
+.grid-item-two-thirds{
+  width: 66.66%;
+}
+.grid-item-quarter{
+  width: 24.9999%;
+}
+.grid-item-half{
+  width: 49.99%;
+}
+.grid-item-three-quarter{
+  width: 75%;
+}
+.grid-item-full{
+  width: 99.99%;
+}
+.grid-item-thirtysix{
+  width: 36%;
+}
+.grid-item-thirtynine{
+  width: 39%;
+}
+/*About Section*/
+section#about{
+  position: relative;
+}
+.top-pad-reviews{
+  padding:25px;
+  padding-top: 55px;
+}
+.about-logo{
+  padding: 7px;
+}
+
+/*Copyright*/
+.copy-text{
+  font-size: .9em;
+}
+/*Social Icons*/
+#social-container ul{
+  margin-top: 30px;
+}
+#social-container ul li{
+  list-style-type: none;
+  display: inline;
+
+}   
+#social-container ul li a img{
+  max-width: 50px;
+  float: left;
+  padding: .5em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}       
+/*Prices Page Styles*/
+#price-section{
+  background: #093048;
+}
+.prices-slider{
+  margin: 0 auto;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.prices-header{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.price-packages{
+  background: #e0710e;
+  border: 1px solid #093048 !important;
+}
+.price-packages > h1{
+  font-size: 7em !important;
+}
+.package-body{
+  margin: .9em;
+}
